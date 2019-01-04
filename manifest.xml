@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<TonidoManifest>
+	<Meta>
+		<Name>Tonido</Name>
+		<DisplayName>Tonido</DisplayName>
+		<BaseURL>http://patch.codelathe.com/tonido/live/update/core/x86_64-linux/</BaseURL>
+		<HomePageURL>http://www.tonido.com</HomePageURL>
+		<Version>14.90.0.34042</Version>
+		<CompatibleVersion>\d+\.\d+\.\d+\.\d+</CompatibleVersion>
+		<OS>Linux</OS>
+		<OSVersion></OSVersion>
+		<Arch>i686|x86_64|i586</Arch>
+		<Vendor>CodeLathe</Vendor>
+		<Description>Tonido Core Package</Description>
+		<Critical>false</Critical>
+		<License>Free</License>
+		<AppURL></AppURL>
+		<Authentication></Authentication>
+		<Runtime>native</Runtime>
+	</Meta>
+	<Files>
+		<File Checksum="1c206817a4bbe0cf5aeab7a2b1924c55" Path="clientca.pem" Executable="0">clientca.pem</File>
+		<File Checksum="f4c41a73e4be9b8d999c37a86dbc5abc" Path="clientcert.pem" Executable="0">clientcert.pem</File>
+		<File Checksum="496bfdd61d6322fe49c1aef6c2c5d56f" Path="config.xml" Executable="0">config.xml</File>
+		<File Checksum="9fa9066994eb67be08216803d8214070" Path="core.zip" Executable="0">core.zip</File>
+		<File Checksum="124ce3e960aaef635326b75346992449" Path="domainlist.xml" Executable="0">domainlist.xml</File>
+		<File Checksum="03f90853d4b2361998e451b428db3280" Path="ffmpeg.exe" Executable="1">ffmpeg.exe</File>
+		<File Checksum="03f90853d4b2361998e451b428db3280" Path="ffmpegv.exe" Executable="1">ffmpegv.exe</File>
+		<File Checksum="5b78e5b9cdc7d6b4ceae9f5ac0c0a6ac" Path="guest.zip" Executable="0">guest.zip</File>
+		<File Checksum="c4f4c198b02cc6b81eabc6a804f3f95a" Path="lame.exe" Executable="1">lame.exe</File>
+		<File Checksum="31e05bed632dc9fad972ff0ad6eb48e1" Path="launcher" Executable="1">launcher</File>
+		<File Checksum="b9289c44b2e9f9c89c65e4f2d8bb72c0" Path="libPocoCrypto.so" Executable="1">libPocoCrypto.so</File>
+		<File Checksum="b9289c44b2e9f9c89c65e4f2d8bb72c0" Path="libPocoCrypto.so.31" Executable="1">libPocoCrypto.so.31</File>
+		<File Checksum="0146461286723532a9e784c8df4a02b8" Path="libPocoFoundation.so" Executable="1">libPocoFoundation.so</File>
+		<File Checksum="0146461286723532a9e784c8df4a02b8" Path="libPocoFoundation.so.31" Executable="1">libPocoFoundation.so.31</File>
+		<File Checksum="9226c10a83dc7f76525deea2fe9d722b" Path="libPocoJSON.so" Executable="1">libPocoJSON.so</File>
+		<File Checksum="9226c10a83dc7f76525deea2fe9d722b" Path="libPocoJSON.so.31" Executable="1">libPocoJSON.so.31</File>
+		<File Checksum="29c167577701733b3eca84a99537c7f3" Path="libPocoNet.so" Executable="1">libPocoNet.so</File>
+		<File Checksum="29c167577701733b3eca84a99537c7f3" Path="libPocoNet.so.31" Executable="1">libPocoNet.so.31</File>
+		<File Checksum="8a32e9c5963009c8c3698bb094976b2f" Path="libPocoNetSSL.so" Executable="1">libPocoNetSSL.so</File>
+		<File Checksum="8a32e9c5963009c8c3698bb094976b2f" Path="libPocoNetSSL.so.31" Executable="1">libPocoNetSSL.so.31</File>
+		<File Checksum="40103a846689bdf6152d07a971603f10" Path="libPocoUtil.so" Executable="1">libPocoUtil.so</File>
+		<File Checksum="40103a846689bdf6152d07a971603f10" Path="libPocoUtil.so.31" Executable="1">libPocoUtil.so.31</File>
+		<File Checksum="ea6f787e8000e6f26d666c26a015177c" Path="libPocoXML.so" Executable="1">libPocoXML.so</File>
+		<File Checksum="ea6f787e8000e6f26d666c26a015177c" Path="libPocoXML.so.31" Executable="1">libPocoXML.so.31</File>
+		<File Checksum="fcedf01f9b85205ee6d1b215577477fb" Path="libPocoZip.so" Executable="1">libPocoZip.so</File>
+		<File Checksum="fcedf01f9b85205ee6d1b215577477fb" Path="libPocoZip.so.31" Executable="1">libPocoZip.so.31</File>
+		<File Checksum="a976209c812c1089f172184d54965075" Path="libappindicator.so.1" Executable="0">libappindicator.so.1</File>
+		<File Checksum="9c05ee11e9bb5a9450f1312556d18203" Path="libbootstrap.so" Executable="1">libbootstrap.so</File>
+		<File Checksum="45a5ca723c914a05a4a36741d2c29aaf" Path="libcore.so" Executable="1">libcore.so</File>
+		<File Checksum="9c1c94f42f28476b323634ba27262d0c" Path="libcrypto.so" Executable="1">libcrypto.so</File>
+		<File Checksum="9c1c94f42f28476b323634ba27262d0c" Path="libcrypto.so.1.0.0" Executable="1">libcrypto.so.1.0.0</File>
+		<File Checksum="74087c03dfac373ef921a9cbd52cff48" Path="libgd.so" Executable="1">libgd.so</File>
+		<File Checksum="74087c03dfac373ef921a9cbd52cff48" Path="libgd.so.2" Executable="1">libgd.so.2</File>
+		<File Checksum="74087c03dfac373ef921a9cbd52cff48" Path="libgd.so.2.0.0" Executable="1">libgd.so.2.0.0</File>
+		<File Checksum="335e28b0753ff7a6511969971eeaac1e" Path="libindicator.so.7" Executable="0">libindicator.so.7</File>
+		<File Checksum="116f57853fd82fafd0e574c350708904" Path="libssl.so" Executable="1">libssl.so</File>
+		<File Checksum="116f57853fd82fafd0e574c350708904" Path="libssl.so.1.0.0" Executable="1">libssl.so.1.0.0</File>
+		<File Checksum="d9e2a354717d61092fb295b1e064ddaf" Path="libtag.so" Executable="1">libtag.so</File>
+		<File Checksum="d9e2a354717d61092fb295b1e064ddaf" Path="libtag.so.1" Executable="1">libtag.so.1</File>
+		<File Checksum="d9e2a354717d61092fb295b1e064ddaf" Path="libtag.so.1.7.0" Executable="1">libtag.so.1.7.0</File>
+		<File Checksum="03232de04918eeebd5c2d29dcabd6c5f" Path="libwx_baseu-2.9.so.5" Executable="1">libwx_baseu-2.9.so.5</File>
+		<File Checksum="a7442490d6751dbf704b5e3bc6625ffb" Path="libwx_gtk2u_adv-2.9.so.5" Executable="1">libwx_gtk2u_adv-2.9.so.5</File>
+		<File Checksum="11f3e8b6dfc1dc0f25e202dea87047e1" Path="libwx_gtk2u_aui-2.9.so.5" Executable="1">libwx_gtk2u_aui-2.9.so.5</File>
+		<File Checksum="b1e6459a9fdb8c1adc2a861885e653bf" Path="libwx_gtk2u_core-2.9.so.5" Executable="1">libwx_gtk2u_core-2.9.so.5</File>
+		<File Checksum="372ae0b24c1d242a56ab3897db6ac87f" Path="resources.zip" Executable="0">resources.zip</File>
+		<File Checksum="61bb27c549d9056ecc860be86e486c62" Path="tonido.png" Executable="0">tonido.png</File>
+		<File Checksum="f95eae7175397a6d232e97b90a86ce09" Path="tonido.sh" Executable="1">tonido.sh</File>
+		<File Checksum="0d99a92c80849cd1abf48067cab6e703" Path="tonidoconsole" Executable="1">tonidoconsole</File>
+		<File Checksum="da9d325cabb60b7c3f6bf29f12a2aac8" Path="tonidostart.sh" Executable="1">tonidostart.sh</File>
+		<File Checksum="a1838c8a3240c8e49130ec87c4b0b34e" Path="tonidoui" Executable="1">tonidoui</File>
+		<File Checksum="45c28b46a1ff4d76a33ed146b4782259" Path="translations.zip" Executable="0">translations.zip</File>
+	</Files>
+	<SharedLibraries />
+	<Actions />
+	<SignatureDataV2>
+		<SignatureIndex>1</SignatureIndex>
+		<SignatureValue>59970d51b3a4d27eb45cac56aa0e48de0b5d99e6d73e47ece86b2e5d45b17d7a7b6feb3bacc6f9aa4ec9b08762257bbdc768b2242d70e41ef8d91b11a75e2ecff7b0f1966fa7943137f2e7a50f5e30a1d3d2182d20c43beca13684670ae3be9ddb3ec13907272b78a574a73015bcbe8c290c5d5b28944d90cd2bbc1accc9ca979fa7c325068a1e8973493226c9b8d3424efcacb254bf7497602e8f4f126c7d610dfeeecc9550c9eab433db7f6018dc7d4d6efc5dc1f99dd49016550ee5343838df4d43c9381ab41fe565096fec7b1e8fd0524ae2925a421c6d788f1e44091ce77bfcf30fd2356249b24400fd07374329079c716ffab7a98dfcb836d74cb0e18a</SignatureValue>
+	</SignatureDataV2>
+	<ActionSignatureDataV2>
+		<SignatureIndex>1</SignatureIndex>
+		<SignatureValue>6fe6db34497b1d6b61a62d099edb4e54fb3cd0cf762af859a1c1b86b23de5433e3072d2e759f7152ef4876efb3142ff2086a99cc6a31733da18bd9c665e2a28821a5da77ab7200c5b52f78780fd18bbc9fae828fc5ce33e645b0f0c4d8cd2db279073154327f1114cd7eb4b43dbddc550415b9bda9d94b37f4a4f4b93415065d0444b64bdf33f7163b7f83158e4ae6a9de3ba5b2f9a3001ad9f20b48649dbe39043a79cd491a81106927e5cd936a1c7ea1089bc7c1c5cc7ab38f3e85e5e1a9921ae4b0bbd08e6348a54ee01b99d807c1c0e9ad1dd4b944ab789e4261124ee09801f7605c4165810025ec24bb03b68d1740d24ffba2c85cf3479135993bcc2cf3</SignatureValue>
+	</ActionSignatureDataV2>
+</TonidoManifest>
